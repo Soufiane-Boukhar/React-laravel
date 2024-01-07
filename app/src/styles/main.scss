@@ -1,0 +1,20 @@
+
+
+@import "../styles/variables.scss";
+@import '../../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css';
+@import '../../node_modules/admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css';
+@import '../../node_modules/admin-lte/dist/css/adminlte.min.css';
+
+body {
+  background-color: #f4f6f9;
+}
+
+.content-wrapper {
+  flex: 1;
+  padding: 20px;
+}
+
+.sidebar {
+  height: 100vh; 
+  position: fixed; 
+}
